@@ -1,0 +1,16 @@
+from sys import stdin
+
+string = stdin.readline().rstrip()
+string_v = [stdin.readline().rstrip().split() for _ in range(n)]
+n = int(stdin.readline().rstrip())
+v = [int(x) for x in stdin.readline().rstrip().split()]
+v2 = [[int(x) for x in stdin.readline().rstrip().split()] for _ in range(n)]
+flat = sum(_, [])
+transpose = [a for a in zip(*_)]
+sorted(a, reverse=True)
+from copy import deepcopy
+a = deepcopy(b)
+from itertools import accumulate
+x = list(accumulate(a))
+from collections import Counter
+Counter(list)
