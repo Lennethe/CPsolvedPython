@@ -1,6 +1,7 @@
 import math
 
 
+# 0-indexed
 class segki():
     # modeで関数を選べます。(min,max,sum,prd(product),gcd,lmc,^,&,|)
     # 葉の数N,要素ls
